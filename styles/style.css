@@ -1,0 +1,283 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(232, 233, 240, 0.781);
+    width: 100%;
+    height: 600px;
+}
+
+.header_Nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+}
+
+.header_Nav_logo{
+    margin: 1px;
+    padding-left: 80px;
+}
+.header_Nav_logo img{
+    width: 100%;
+    height: 30px;
+}
+
+.header_Nav_icon_text{
+    margin: 1px;
+    padding-right: 670px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    background-color: rgba(232, 233, 240, 0.781);
+    width: 30px;
+    height: 34px;
+    border: none;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+input{
+    background-color: rgba(232, 233, 240, 0.781);
+    width: 190px;
+    height: 32px;
+    border: none;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    outline: none;
+}
+
+.down_header_Nav{
+    display: flex;
+    width: 100%;
+}
+
+.down_header_Nav1{
+    /* background-color: cornflowerblue; */
+    width: 62%;
+    height: 650px;
+    margin-top: 36px;
+}
+
+.down_header_Nav .down_header_Nav1 .header-text h1{
+    padding-left: 50px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.down_header_Nav .down_header_Nav1 .header-text p{
+    margin-top: 20px;
+    padding-left: 163px;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+.down_header_Nav .down_header_Nav1 .photos{
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+.down_header_Nav .down_header_Nav1 .photos .photo2 img{
+    position: absolute;
+    top: 36px;
+    left: 245px;
+}
+.down_header_Nav .down_header_Nav1 .photos .photo1 img{
+    position: absolute;
+    top: 36px;
+    right: 188px;
+}
+
+.down_header_Nav .down_header_Nav1 .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 455px;
+    font-size: small;
+    color: rgba(49, 49, 204, 0.884);
+    cursor: pointer;
+}
+.down_header_Nav .down_header_Nav1 .icon .icon-android{
+    display: flex;
+    padding-left: 230px;
+}
+
+.down_header_Nav .down_header_Nav1 .icon .icon-apple{
+    display: flex;
+    padding-right: 200px;
+}
+.down_header_Nav .down_header_Nav1 .prg{
+    text-align: center;
+    margin-top: 21px;
+    padding-left: 50px;
+    font-size: small;
+    color: rgba(49, 49, 204, 0.884);
+}
+
+.down_header_Nav2{
+    /* background-color: blue; */
+    width: 37%;
+}
+.down_header_Nav2 .box1{
+    width: 285px;
+    height: 390px;
+    background-color: white;
+    margin-top: 18px;
+    margin-left: 6px;
+    padding-left: 30px;
+    border-radius: 11px;
+}
+.down_header_Nav2 .box1 .logo2 img{
+    width: 48px;
+    height: 48px;
+    padding-left: 98px;
+    padding-top: 35px;
+}
+.down_header_Nav2 .box1 .prg2{
+    width: 255px;
+    height: 20px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.down_header_Nav2 .box1 .text2{
+    padding-top: 23px;
+}
+.down_header_Nav2 .box1 .text2 input{
+    width: 240px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border: 1px solid rgb(228, 225, 225);
+}
+input{
+    text-align: left;
+    padding-left: 15px;
+}
+.down_header_Nav2 .box1 .check-btn label{
+    /* background-color: coral; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 9px;
+    font-size: small;
+    color: gray;
+    cursor: pointer;
+    
+}
+.down_header_Nav2 .box1 .check-btn label input{
+    width: 15px;
+    height: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.down_header_Nav2 .box1 .blue-btn{
+    padding-top: 23px;
+}
+.down_header_Nav2 .box1 .blue-btn button{
+    background-color: rgba(0, 47, 255, 0.911);
+    width: 260px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.down_header_Nav2 .box1 .blue-btn p{
+    text-align: left;
+    padding-left: 120px;
+    margin-top: 15px;
+    color: gray;
+}
+
+.down_header_Nav2 .box1 .icon-qrcode{
+    width: 260px;
+    display: flex;
+    margin-top: 23px;
+    border: 1px solid rgb(228, 225, 225);
+    border-radius: 8px;
+}
+
+.down_header_Nav2 .box1 .icon-qrcode .qr button{
+    background-color: white;
+    cursor: pointer;
+}
+.down_header_Nav2 .box1 .icon-qrcode .code button{
+    background-color: white;
+    width: 230px;
+    padding-right: 36px;
+    cursor: pointer;
+}
+
+.down_header_Nav2 .box2{
+    width: 285px;
+    height: 145px;
+    background-color: white;
+    margin-top: 18px;
+    margin-left: 6px;
+    padding-left: 30px;
+    border-radius: 11px;
+}
+.down_header_Nav2 .box2 .green-btn button{
+    background-color: rgba(32, 173, 50, 0.945);
+    width: 260px;
+    margin-top: 23px;
+    border-radius: 11px;
+    color: white;
+}
+.down_header_Nav2 .box2 .prg3{
+    width: 240px;
+    height: 35px;
+    margin-top: 16px;
+    padding-left: 15px;
+    text-align: center;
+    color: grey;
+    font-size: small;
+}
+.down_header_Nav2 .box2 .prg4{
+    width: 260px;
+    text-align: center;
+    color: rgba(51, 49, 49, 0.884);
+    font-size: small;
+}
+
+footer{
+    /* background-color: darkorange; */
+    width: 100%;
+    height: 70px;
+}
+.liste{
+    width: 92%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: small;
+    color: rgba(49, 49, 204, 0.884);
+}
+.left-block{
+
+}
+.liste .center-block ul{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    cursor: pointer;
+}
+.liste .right-block ul{
+    width: 340px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
